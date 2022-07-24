@@ -1,0 +1,20 @@
+{
+  "name": "fs-watch",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon src/index",
+    "start": "node src/index",
+    "test": "jest --verbose --runInBand"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "chalk": "4.1",
+    "chokidar": "^3.5.3",
+    "jest": "^28.1.3",
+    "rimraf": "^3.0.2"
+  },
+  "description": ""
+}
